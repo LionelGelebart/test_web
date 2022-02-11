@@ -20,13 +20,13 @@ on **heterogeneous unit-cells** (described by regular 3D images).
 **AMITEX_FFTP** can be run either on individual PC, local clusters or on large **High Performance Computing** 
 platforms to perform large scale simulations.
 
-The code combines **massively parallel implementation** with a **versatile user interface**  :: 
+The code combines **massively parallel implementation** with a **versatile user interface**  :
 
-    - various complex geometries,
-    - various loadings conditions,
-    - various behavior laws (user defined), 
-    - small strain and finite strain simulations,
-    - various loadings conditions,
-    - possiblity to finely tune the outputs.
+- various complex geometries,
+- various loadings conditions,
+- various behavior laws (user defined), 
+- small strain and finite strain simulations,
+- various loadings conditions,
+- possiblity to finely tune the outputs.
     
 
