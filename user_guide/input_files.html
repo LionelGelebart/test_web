@@ -256,7 +256,7 @@ LOOKUP_TABLE default
 <li>the data type when writing binaries must be consistent with the data type given in the header</li>
 <li>the maximum field value (especially for zoneID) must be less than the limit value corresponding to the data type</li>
 </ul>
-<p>MATLAB/OCTAVE functions can be found in <a class="reference external" href="../../../general/_build/html/tools.html#tools" title="(in AMITEX general)"><span>Tools</span></a> to generate VTK files compatible with <strong>AMITEX_FFTP</strong>.</p>
+<p>MATLAB/OCTAVE functions can be found in <a class="reference external" href="../general/tools.html#tools" title="(in AMITEX general)"><span>Tools</span></a> to generate VTK files compatible with <strong>AMITEX_FFTP</strong>.</p>
 <div class="admonition caution">
 <p class="first admonition-title">Caution</p>
 <p>In case of <strong>unsigned</strong> data types, the limit value used by AMITEX_FFTP is the limit value for corresponding <strong>signed</strong> data types (<strong>~ 0.5 x limit value for unsigned</strong>).</p>
@@ -265,7 +265,7 @@ LOOKUP_TABLE default
 <div class="admonition-tips admonition">
 <p class="first admonition-title">TIPS</p>
 <ol class="last arabic simple">
-<li>You can use specific <a class="reference external" href="../../../general/_build/html/tools.html#tools" title="(in AMITEX general)"><span>Tools</span></a> to generate vtk files for AMITEX_FFTP</li>
+<li>You can use specific <a class="reference external" href="../general/tools.html#tools" title="(in AMITEX general)"><span>Tools</span></a> to generate vtk files for AMITEX_FFTP</li>
 <li><strong>if PARAVIEW can’t read your vtk file don’t go further with AMITEX_FFTP.</strong></li>
 </ol>
 </div>
@@ -301,7 +301,7 @@ double
 </div>
 <p>The first line is the number of binary values within the file, it must greater or equal to the number of zones defined in the VTK file.</p>
 <p>The second line defines the data type (<em>char</em>, <em>short</em>, <em>int</em>, <em>long</em>, <em>unsigned_short</em>, <em>unsigned_int</em>, <em>unsigned_long</em>, respectively coded on 1, 2, 4 and 8 bytes, or <em>float</em> and <em>double</em> on 4 and 8 bytes), here the type is <em>double</em>. The rest of the file should be binary data satisfying the constraints defined in <a class="reference internal" href="#binary-data">Binary data</a> (<em>big endian</em> ordering and maximum values).</p>
-<p>MATLAB/OCTAVE functions can be found in <a class="reference external" href="../../../general/_build/html/tools.html#tools" title="(in AMITEX general)"><span>Tools</span></a> to generate BIN files compatible with <strong>AMITEX_FFTP</strong>.</p>
+<p>MATLAB/OCTAVE functions can be found in <a class="reference external" href="../general/tools.html#tools" title="(in AMITEX general)"><span>Tools</span></a> to generate BIN files compatible with <strong>AMITEX_FFTP</strong>.</p>
 </div>
 </div>
 

@@ -32,8 +32,10 @@ However the development branch is still in progress !  Contact us if interested 
 `Download v8.17.9`
 
 .. warning::
-    02/2022 : temporarily, the server for downloading the code is unavailable
-    If necessary please contact : lionel . gelebart AT cea dot fr
+    
+    **02/2022 : temporarily, the server for downloading the code is unavailable.**
+    
+    **If necessary please contact : lionel . gelebart AT cea dot fr**
 
 
 Date : May 2021 (8.17.9)

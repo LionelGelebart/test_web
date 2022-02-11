@@ -305,7 +305,7 @@ on demand at given times, <span class="udl">per inclusion</span> statistical qua
 </div>
 <div class="section" id="how-to-launch-amitex-fftp">
 <span id="to-begin-how-to-launch"></span><h2>HOW TO LAUNCH AMITEX_FFTP<a class="headerlink" href="#how-to-launch-amitex-fftp" title="Permalink to this headline">¶</a></h2>
-<p>Once installed (see <a class="reference external" href="../../../general/_build/html/install.html#install" title="(in AMITEX general)"><span>Installation</span></a>), to use <strong>AMITEX_FFTP</strong>, you must set the environment variable AMITEX_PATH, PATH (and LD_LIBRARY_PATH since v8.18.x).</p>
+<p>Once installed (see <a class="reference external" href="../general/install.html#install" title="(in AMITEX general)"><span>Installation</span></a>), to use <strong>AMITEX_FFTP</strong>, you must set the environment variable AMITEX_PATH, PATH (and LD_LIBRARY_PATH since v8.18.x).</p>
 <p>For example in a file <code class="docutils literal notranslate"><span class="pre">env_amitex.sh</span></code>:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="ch">#!/bin/bash</span>
 <span class="nb">export</span> <span class="nv">AMITEX_PATH</span><span class="o">=(</span>amitex<span class="o">)</span>
@@ -317,7 +317,7 @@ on demand at given times, <span class="udl">per inclusion</span> statistical qua
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">source</span> env_amitex.sh
 </pre></div>
 </div>
-<p>If you have compiled GCC and/or openMPI and/or fftw3, and used them for compiling <strong>AMITEX_FFTP</strong> (see <a class="reference external" href="../../../general/_build/html/install.html#gcc-openmpi-fftw-mfront" title="(in AMITEX general)"><span>GCC, openMPI, fftw, mfront</span></a>), be sure that their respectives <em>bin</em> and <em>lib</em> (or <em>lib64</em>) folders are added to the PATH and LD_LIBRARY_PATH variables in the env_amitex.sh</p>
+<p>If you have compiled GCC and/or openMPI and/or fftw3, and used them for compiling <strong>AMITEX_FFTP</strong> (see <a class="reference external" href="../general/install.html#gcc-openmpi-fftw-mfront" title="(in AMITEX general)"><span>GCC, openMPI, fftw, mfront</span></a>), be sure that their respectives <em>bin</em> and <em>lib</em> (or <em>lib64</em>) folders are added to the PATH and LD_LIBRARY_PATH variables in the env_amitex.sh</p>
 <p>Interactively or within a batch script (for the job manager available on your machine), a simulation is launched with one of the following command lines</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nv">MATEVTK</span><span class="o">=</span><span class="s2">&quot;path_to/materialID.vtk&quot;</span>
 <span class="nv">ZONEVTK</span><span class="o">=</span><span class="s2">&quot;path_to/zoneID.vtk&quot;</span>
