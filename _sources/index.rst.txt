@@ -9,7 +9,7 @@ AMITEX_FFTP HOMEPAGE
             :align: center
             :figwidth: 50%
             
-`USER <lionelgelebart.github.io/test_web/user_guide/to_begin.html>`_.
+`USER <user_guide/to_begin.html>`_.
 
-`GENERAL <lionelgelebart.github.io/test_web/general/index.html>`_.
+`GENERAL <general/index.html>`_.
 
