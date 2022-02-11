@@ -1,0 +1,15 @@
+.. _accueil:
+
+AMITEX_FFTP HOMEPAGE
+=====================
+
+
+
+.. figure:: _static/amitex.png
+            :align: center
+            :figwidth: 50%
+            
+`USER <lionelgelebart.github.io/test_web/user_guide/to_begin.html>`_.
+
+`GENERAL <lionelgelebart.github.io/test_web/general/index.html>`_.
+
