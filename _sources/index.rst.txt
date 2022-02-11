@@ -9,7 +9,9 @@ AMITEX_FFTP HOMEPAGE
             :align: center
             :figwidth: 50%
             
-`USER <user_guide/to_begin.html>`_.
 
-`GENERAL <general/index.html>`_.
+.. toctree::
+
+   general
+   user_guide
 
