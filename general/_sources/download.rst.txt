@@ -20,14 +20,21 @@ Just keep in mind that **AMITEX_FFTP** is not a "big" code, there is not so many
 VERSION 8.17.x + TRAINING SESSION + VALIDATION TESTS
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The version 8.17.2 is now quite stable with a quite broad scope, the next 8.17.x versions will consist of **bug corrections** (if reported) or mminor modifications.
+The version 8.17.2 is now quite stable with a quite broad scope, the next 8.17.x versions will consist of **bug corrections** (if reported) or minor modifications.
 
 However the development branch is still in progress !  Contact us if interested !
 
 **AMITEX_FFTP v8.17.9**
 ---------------------------
 
-`Download v8.17.9 <_static/download_amitex_fftp.html>`_
+.. `Download v8.17.9 <_static/download_amitex_fftp.html>`
+
+`Download v8.17.9`
+
+.. warning::
+    02/2022 : temporarily, the server for downloading the code is unavailable
+    If necessary please contact : lionel . gelebart AT cea dot fr
+
 
 Date : May 2021 (8.17.9)
 
